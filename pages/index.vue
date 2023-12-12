@@ -1,9 +1,6 @@
 <script setup lang="ts">
 const online = useOnline();
 
-// definePageMeta({
-//   layout: 'customRoute',
-// })
 </script>
 
 <template>

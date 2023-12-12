@@ -1,5 +1,4 @@
-<script>
-
+<script setup>
 const router = useRouter();
 const routes = router.getRoutes()
   .map(route => route.path)

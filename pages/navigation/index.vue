@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const online = useOnline()
-
 const { state, next, prev } = useCycleList([
   'Dog',
   'Cat',
