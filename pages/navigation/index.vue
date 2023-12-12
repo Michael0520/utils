@@ -12,10 +12,6 @@ const { state, next, prev } = useCycleList([
   'Seal',
 ])
 
-definePageMeta({
-  layout: 'home',
-})
-
 </script>
 
 <template>

@@ -1,5 +1,9 @@
 <script setup lang="ts">
-const online = useOnline()
+const online = useOnline();
+
+// definePageMeta({
+//   layout: 'customRoute',
+// })
 </script>
 
 <template>
