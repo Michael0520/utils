@@ -1,15 +1,17 @@
-<script setup>
-const router = useRouter();
+<script  setup>
+const router = useRouter()
 const routes = router.getRoutes()
   .map(route => route.path)
-  .filter(path => path.includes('/navigation'));
-
+  .filter(path => path.includes('/navigation'))
 </script>
+
 <template>
   <aside class="sidebar">
     <ul>
       <li v-for="route in routes" :key="route">
-        <NuxtLink :to="route">{{ route.slice(1) }}</NuxtLink>
+        <NuxtLink :to="route">
+          {{ route.slice(1) }}
+        </NuxtLink>
       </li>
     </ul>
   </aside>
